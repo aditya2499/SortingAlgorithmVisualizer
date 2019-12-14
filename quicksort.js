@@ -88,7 +88,7 @@ changeWidth();
          width=width.slice(1);
          console.log(width[0], id[0]);
          resolve();
-         },100)
+         },10)
       },50)
          );
       })
