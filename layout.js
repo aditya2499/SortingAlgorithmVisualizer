@@ -10,11 +10,11 @@ function createHorizontalLine()
 {  sizeArr=sizeArr.slice(sizeArr.length);
    let i=0;
    let hl;
-   for(i=0;i<120;i++)
+   for(i=0;i<60;i++)
    {
       let width=Math.floor(Math.random() * (100 - 5) )+ 5;
       sizeArr.push(width);
-       hl += `<hr style="height:2.5px;color:rgb(0, 204, 204);background-color:rgb(0, 204, 204); width: ${width}%; margin : 1.5px;  " align="left" id= ${i} />`  
+       hl += `<hr style="height:5.5px;color:rgb(0, 204, 204);background-color:rgb(0, 204, 204); width: ${width}%; margin : 1.5px;  " align="left" id= ${i} />`  
       
    }
    body.innerHTML=hl;
